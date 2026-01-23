@@ -13,8 +13,8 @@
 - **代码生成比：** 在新功能开发中，AI 生成代码占比约 **60%-70%**，人工主要负责核心架构设计与逻辑 Review。
 
 ### 2. 编程报告示例
-![AI 编程效能图](screenshots/reports/ai_efficiency_report.png)
-*(此处建议放置 Trae 或 Copilot 的月度统计图表脱敏版)*
+- [查看项目提交记录展示](screenshots/commits/cnb.md)
+- [查看 Trae 使用统计报告](screenshots/ai_chats/AICoding.md)
 
 ---
 

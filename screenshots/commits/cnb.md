@@ -1,6 +1,9 @@
 
 # 项目提交记录与展示
 
+## Dify 搭建AI客服工作流
+![alt text](image.png)
+
 ## 微信小程序项目 AI Coding 提交记录
 ![提交记录 1](wechat-mini-program-commits-1.png)
 ![提交记录 2](wechat-mini-program-commits-2.png)

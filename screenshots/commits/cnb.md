@@ -4,6 +4,9 @@
 ## Dify 搭建AI客服工作流
 ![alt text](image.png)
 
+### Dify 搭建AI客服工作流-异步并行
+![alt text](image-2.png)
+
 ## 微信小程序项目 AI Coding 提交记录
 ![提交记录 1](wechat-mini-program-commits-1.png)
 ![提交记录 2](wechat-mini-program-commits-2.png)

@@ -15,6 +15,7 @@
 ### GitHub 页面
 ![StepOne GitHub 页面](stepone-github-page.png)
 
-<!-- ### 项目访问地址
-- **网址**: [https://115.191.10.0/](https://115.191.10.0/)
-- **说明**: 域名目前正在备案审查中。 -->
+### 项目访问地址
+- **网址**: [stepone.huajiang.wang](https://stepone.huajiang.wang)
+- **状态**: 🛠️ **持续更新中**
+- **说明**: 该项目作为 AI 全栈实战的核心展示，将不断同步最新的 AI 开发成果。

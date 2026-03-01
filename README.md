@@ -43,6 +43,16 @@
   - ![Dify 工作流架构](screenshots/commits/image.png)
   - ![异步并行优化](screenshots/commits/image-2.png)
 
+### 4. AI 全栈实战：StepOne 项目 (核心展示)
+**StepOne** 是我深度协同 AI 构建的全栈 AI 应用。
+- **项目官网**：[👉 stepone.huajiang.wang](https://stepone.huajiang.wang) (推荐访问)
+- **项目状态**：🛠️ **持续更新中** (不断引入 AI 前沿实践)
+- **AI 协同点**：
+  - **全链路自动构建**：利用 AI 进行从前端界面设计到后端 API 实现的全流程辅助。
+  - **极致效能体验**：项目架构经过 AI 优化，兼顾性能与可维护性。
+- **展示：**
+  - ![StepOne 项目展示](screenshots/commits/stepone-github-page.png)
+
 ---
 
 ## 📈 自动化研究：Skill 自动上架

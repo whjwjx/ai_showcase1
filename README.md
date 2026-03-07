@@ -14,15 +14,15 @@
 
 我是 **王华江**，一名专注于 **AI 全栈开发与 Agentic 架构** 的技术探索者。
 
-- 🌐 **个人主页**：[huajiang.wang](https://huajiang.wang) (博客建设中...)
+- 🌐 **个人主页**：[huajiang.wang 🔗](https://huajiang.wang) (博客建设中...)
 - 🎓 **学历背景**：27届硕士研究生
 - 🎯 **求职意向**：前端/全栈开发 (侧重 AI 应用落地)
 - 🛠 **技术栈**：
   - **前端**：Vue 3, React 18, 微信小程序, Tailwind CSS
   - **后端**： Python (FastAPI, Flask), Node.js, Java (Spring Boot), PostgreSQL, MySQL
   - **AI 领域**：Dify, MCP (Model Context Protocol), LangChain, RAG, Agentic Workflow
-- 💡 **探索实践**：目前正深入研究 **MCP 生态**、**自定义 Skills 开发** 以及 **OpenClaw 协同模式**，致力于构建更智能、更自动化的开发工作流。
-- 🚀 **核心优势**：擅长将 AI 技术与具体业务场景（如智能导购、自动化办公）深度结合，追求“AI 原生”的开发体验。
+- 💡 **探索实践**：目前正深入研究 [**MCP 生态** 🖱️](#5-效率工具与-mcp-插件-扩展展示)、**自定义 Skills 开发** 以及 **OpenClaw 协同模式**，致力于构建更智能、更自动化的开发工作流。
+- 🚀 **核心优势**：擅长将 AI 技术与具体业务场景（如 [**智能导购** 🖱️](#3-dify-智能导购助手优化-workflow-架构)、[**自动化办公** 🖱️](#5-效率工具与-mcp-插件-扩展展示)）深度结合，追求“AI 原生”的开发体验。
 
 ---
 
@@ -37,17 +37,18 @@
 
 ## 📖 目录 (Table of Contents)
 
-- [🚀 AI 协同效能概览](#-ai-协同效能概览)
-  - [1. 开发效率提升](#1-开发效率提升)
-  - [2. 编程报告示例](#2-编程报告示例)
-- [🛠 AI 协同实战展示](#-ai-协同实战展示)
-  - [1. 复杂逻辑拆解 (Trae Builder Mode)](#1-复杂逻辑拆解-trae-builder-mode)
-  - [2. 原子化提交规范 (Atomic Commits)](#2-原子化提交规范-atomic-commits)
-  - [3. Dify 智能导购助手优化 (Workflow 架构)](#3-dify-智能导购助手优化-workflow-架构)
-  - [4. AI 全栈实战：StepOne (核心展示)](#4-ai-全栈实战stepone-核心展示)
-- [📈 自动化研究：Smart Listing Agent](#-自动化研究ai-驱动的商品自动上架系统-smart-listing-agent)
-- [📂 规范指南](#-规范指南)
-- [🔗 联系方式](#-联系方式)
+- [🚀 AI 协同效能概览 🖱️](#-ai-协同效能概览)
+  - [1. 开发效率提升 🖱️](#1-开发效率提升)
+  - [2. 编程报告示例 🖱️](#2-编程报告示例)
+- [🛠 AI 协同实战展示 🖱️](#-ai-协同实战展示)
+  - [1. 复杂逻辑拆解 (Trae Builder Mode) 🖱️](#1-复杂逻辑拆解-trae-builder-mode)
+  - [2. 原子化提交规范 (Atomic Commits) 🖱️](#2-原子化提交规范-atomic-commits)
+  - [3. Dify 智能导购助手优化 (Workflow 架构) 🖱️](#3-dify-智能导购助手优化-workflow-架构)
+  - [4. AI 全栈实战：StepOne (核心展示) 🖱️](#4-ai-全栈实战stepone-核心展示)
+  - [5. 效率工具与 MCP 插件 (扩展展示) 🖱️](#5-效率工具与-mcp-插件-扩展展示)
+- [📈 自动化研究：Smart Listing Agent 🖱️](#-自动化研究ai-驱动的商品自动上架系统-smart-listing-agent)
+- [📂 规范指南 🖱️](#-规范指南)
+- [🔗 联系方式 🖱️](#-联系方式)
 
 ---
 
@@ -88,6 +89,8 @@
   - ![Dify 工作流架构](assets/screenshots/commits/image.png)
   - ![异步并行优化](assets/screenshots/commits/image-2.png)
 
+[⬆️ 返回顶部](#-ai-native-developer-showcase)
+
 ### 4. AI 全栈实战：StepOne — AI 驱动的个人效率管理平台 (核心展示)
 **StepOne** 是一款融合了“类 Flomo 笔记”与“象限清单”的个人效率工具，旨在通过 AI 技术降低用户拆解复杂任务的认知成本。
 
@@ -115,6 +118,23 @@
     - **以人为本的架构能力**：这一过程极大地锻炼了开发者对业务的深度剖析与原子化拆解能力。不盲目追求“一步到位”的顶尖大模型，而是通过人的专业分析让各种模型都能稳定、高效地工作。
 - **展示：**
   - ![StepOne 项目展示](assets/screenshots/commits/stepone-github-page.png)
+
+[⬆️ 返回顶部](#-ai-native-developer-showcase)
+
+### 5. 效率工具与 MCP 插件 (扩展展示)
+除了核心应用，我也通过开发轻量化工具来优化个人工作流，并积极参与 AI 助手生态建设。
+
+- **[getMyCommits 🔗](https://github.com/whjwjx/getMyCommits) — 自动化月报助手**
+  - **痛点**：手动整理每月提交记录非常耗时。
+  - **方案**：基于浏览器脚本实现 GitLab/CNB 提交历史的**自动翻页采集**与内容清洗。
+  - **价值**：将原本需 30 分钟的月报整理工作缩短至 1 分钟，生成的 CSV 格式可直接用于汇报。
+
+- **[fastNotionMCP 🔗](https://github.com/whjwjx/fastNotionMCP) — 极智 Notion 连接器**
+  - **定位**：基于 **MCP (Model Context Protocol)** 协议，让 AI 助手原生拥有 Notion 操作超能力。
+  - **核心**：支持数据库 Schema 自适应、智能页面创建与搜索。
+  - **意义**：打通了“AI 思考”到“知识落库”的最后一步，是 AI Agent 闭环工作流的关键组件。
+
+[⬆️ 返回顶部](#-ai-native-developer-showcase)
 
 ---
 
@@ -146,6 +166,8 @@
 
 - **技术栈**：Python 3.x, Pandas, OpenPyXL, Pillow, Requests, AI Agent Framework.
 
+[⬆️ 返回顶部](#-ai-native-developer-showcase)
+
 ---
 
 ## 📂 规范指南
@@ -154,7 +176,7 @@
 ---
 
 ## 🔗 联系方式
-- **📧 Email:** [whj_cj2020@163.com](mailto:whj_cj2020@163.com)
-- **🐙 GitHub:** [https://github.com/whjwjx](https://github.com/whjwjx)
+- **📧 Email:** [whj_cj2020@163.com 🔗](mailto:whj_cj2020@163.com)
+- **🐙 GitHub:** [https://github.com/whjwjx 🔗](https://github.com/whjwjx)
 
 > **安全声明：** 本仓库所有截图及代码均已进行脱敏处理，不包含任何商业机密及私有业务逻辑。

@@ -1,8 +1,51 @@
-# AI-Native Developer Showcase
+# 🤖 AI-Native Developer Showcase
 
-本仓库用于展示我在开发过程中与 AI（Trae, OpenCode, Claude）深度协同的实战成果、效能数据及工程规范。
+<p align="center">
+  <img src="https://img.shields.io/badge/Role-Full--Stack%20AI%20Developer-blue?style=for-the-badge" alt="Role">
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20RAG%20%7C%20Automation-orange?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/IDE-Trae%20%7C%20Cursor%20%7C%20VSCode-blueviolet?style=for-the-badge" alt="IDE">
+</p>
 
-> **安全声明：** 本仓库所有截图及代码均已进行脱敏处理，不包含任何商业机密及私有业务逻辑。
+本仓库是一个**实战驱动**的 AI 协同开发展示空间，旨在记录和分享我在与 AI（Trae, Claude, DeepSeek）深度共生过程中的工程实践、效能数据及方法论沉淀。
+
+---
+
+## 👨‍💻 关于作者
+
+我是 **王华江**，一名专注于 **AI 全栈开发** 的技术探索者。
+
+- 🎓 **学历背景**：27届硕士研究生
+- 🎯 **求职意向**：前端/全栈开发 (侧重 AI 应用落地)
+- 🛠 **技术栈**：
+  - **前端**：Vue 3, React 18, 微信小程序, Tailwind CSS
+  - **后端**：Python (FastAPI, Flask), Node.js, PostgreSQL
+  - **AI 领域**：Dify, LangChain, RAG (检索增强生成), Agentic Workflow
+- 💡 **核心优势**：擅长将 AI 技术与具体业务场景（如智能导购、自动化办公）深度结合，追求“AI 原生”的开发体验。
+
+---
+
+## 🎯 仓库初衷：为什么要建立这个 Showcase？
+
+在 AI 浪潮下，**开发者正在从“写代码的人”转变为“调优代码的人”**。建立本仓库的初衷有三：
+1. **量化 AI 效能**：通过真实数据证明 AI 对开发效率的提升。
+2. **沉淀方法论**：总结如何通过精准的 Prompt 和 Context 管理，让 AI 输出工业级代码。
+3. **展示工程品味**：即使在 AI 高频产出的背景下，依然坚持原子化提交、模块化封装及高标准脱敏规范。
+
+---
+
+## 📖 目录 (Table of Contents)
+
+- [🚀 AI 协同效能概览](#-ai-协同效能概览)
+  - [1. 开发效率提升](#1-开发效率提升)
+  - [2. 编程报告示例](#2-编程报告示例)
+- [🛠 AI 协同实战展示](#-ai-协同实战展示)
+  - [1. 复杂逻辑拆解 (Trae Builder Mode)](#1-复杂逻辑拆解-trae-builder-mode)
+  - [2. 原子化提交规范 (Atomic Commits)](#2-原子化提交规范-atomic-commits)
+  - [3. Dify 智能导购助手优化 (Workflow 架构)](#3-dify-智能导购助手优化-workflow-架构)
+  - [4. AI 全栈实战：StepOne (核心展示)](#4-ai-全栈实战stepone-核心展示)
+- [📈 自动化研究：Smart Listing Agent](#-自动化研究ai-驱动的商品自动上架系统-smart-listing-agent)
+- [📂 规范指南](#-规范指南)
+- [🔗 联系方式](#-联系方式)
 
 ---
 
@@ -13,8 +56,8 @@
 - **代码生成比：** 在新功能开发中，AI 生成代码占比约 **60%-70%**，人工主要负责核心架构设计与逻辑 Review。
 
 ### 2. 编程报告示例
-- [查看项目提交记录展示](docs/reports/cnb.md)
-- [查看 Trae 使用统计报告](docs/reports/AICoding.md)
+- [📊 查看项目提交记录展示](docs/reports/cnb.md)
+- [📈 查看 Trae 使用统计报告](docs/reports/AICoding.md)
 
 ---
 
@@ -97,9 +140,17 @@
   - **文件结构与代码组织**：
     ![项目文件截图](assets/images/image.png)
 
-- **技术栈**：Python 3.x, Pandas, OpenPyXL, Pillow, Zipfile/XML, Requests (REST API), AI Agent Framework.
+- **技术栈**：Python 3.x, Pandas, OpenPyXL, Pillow, Requests, AI Agent Framework.
+
+---
+
+## 📂 规范指南
+- [🛡 截图脱敏及展示指南](docs/guides/GUIDE.md)：确保项目展示符合安全合规要求。
+
 ---
 
 ## 🔗 联系方式
-- **Email:** whj_cj2020@163.com
-- **GitHub:** [https://github.com/whjwjx](https://github.com/whjwjx)
+- **📧 Email:** [whj_cj2020@163.com](mailto:whj_cj2020@163.com)
+- **🐙 GitHub:** [https://github.com/whjwjx](https://github.com/whjwjx)
+
+> **安全声明：** 本仓库所有截图及代码均已进行脱敏处理，不包含任何商业机密及私有业务逻辑。

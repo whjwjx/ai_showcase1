@@ -2,18 +2,18 @@
 # 项目提交记录与展示
 
 ## Dify 搭建AI客服工作流
-![alt text](image.png)
+![alt text](../../assets/screenshots/commits/image.png)
 
 ### Dify 搭建AI客服工作流-异步并行
-![alt text](image-2.png)
+![alt text](../../assets/screenshots/commits/image-2.png)
 
 ## 微信小程序项目 AI Coding 提交记录
-![提交记录 1](wechat-mini-program-commits-1.png)
-![提交记录 2](wechat-mini-program-commits-2.png)
+![提交记录 1](../../assets/screenshots/commits/wechat-mini-program-commits-1.png)
+![提交记录 2](../../assets/screenshots/commits/wechat-mini-program-commits-2.png)
 
 ## 个人项目 StepOne 展示
 ### GitHub 页面
-![StepOne GitHub 页面](stepone-github-page.png)
+![StepOne GitHub 页面](../../assets/screenshots/commits/stepone-github-page.png)
 
 ### 项目访问地址
 - **网址**: [stepone.huajiang.wang](https://stepone.huajiang.wang)

@@ -13,8 +13,8 @@
 - **代码生成比：** 在新功能开发中，AI 生成代码占比约 **60%-70%**，人工主要负责核心架构设计与逻辑 Review。
 
 ### 2. 编程报告示例
-- [查看项目提交记录展示](screenshots/commits/cnb.md)
-- [查看 Trae 使用统计报告](screenshots/ai_chats/AICoding.md)
+- [查看项目提交记录展示](docs/reports/cnb.md)
+- [查看 Trae 使用统计报告](docs/reports/AICoding.md)
 
 ---
 
@@ -27,12 +27,12 @@
   1. 通过 Trae Builder 模式定义 Skill 接口规范。
   2. AI 自动生成多模态 OCR 识别逻辑。
   3. 人工接入企业级私有 API 鉴权。
-- **截图：** `screenshots/ai_chats/skill_auto_listing_logic.png`
+- **截图：** `assets/screenshots/ai_chats/skill_auto_listing_logic.png`
 
 ### 2. 原子化提交规范 (Atomic Commits)
 **规范：** 遵循 Conventional Commits，每个 Commit 仅包含一个逻辑原子。
 - **展示：** 即使在 AI 高频产出下，依然保持清晰的提交历史。
-- **截图：** `screenshots/commits/atomic_commit_history.png`
+- **截图：** `assets/screenshots/commits/atomic_commit_history.png`
 
 ### 3. Dify 智能导购助手优化 (Workflow 架构)
 针对响应慢、幻觉乱编、回复死板等痛点，将架构从 Agent 模式升级为 **意图驱动的工作流 (Workflow)**。
@@ -40,8 +40,8 @@
 - **零幻觉保障**：通过专用 API 替代 SQL 自由写，结合“硬性约束指令”，确保回复数据 100% 对应接口字段。
 - **智能分流**：内置意图分类器，实现“闲聊”与“搜索”路径的精准切换，兼顾拟人化体验与业务严谨性。
 - **展示：**
-  - ![Dify 工作流架构](screenshots/commits/image.png)
-  - ![异步并行优化](screenshots/commits/image-2.png)
+  - ![Dify 工作流架构](assets/screenshots/commits/image.png)
+  - ![异步并行优化](assets/screenshots/commits/image-2.png)
 
 ### 4. AI 全栈实战：StepOne — AI 驱动的个人效率管理平台 (核心展示)
 **StepOne** 是一款融合了“类 Flomo 笔记”与“象限清单”的个人效率工具，旨在通过 AI 技术降低用户拆解复杂任务的认知成本。
@@ -67,7 +67,7 @@
     - 好的**需求分析与规划**是 AI 协同成功的基石。只要需求拆解足够到位、逻辑链路足够清晰，即使是“一般水平”的模型也能交付高质量的代码。
     - **以人为本的架构能力**：这一过程极大地锻炼了开发者对业务的深度剖析与原子化拆解能力。不盲目追求“一步到位”的顶尖大模型，而是通过人的专业分析让各种模型都能稳定、高效地工作。
 - **展示：**
-  - ![StepOne 项目展示](screenshots/commits/stepone-github-page.png)
+  - ![StepOne 项目展示](assets/screenshots/commits/stepone-github-page.png)
 
 ---
 
@@ -95,11 +95,11 @@
 
 - **项目展示**：
   - **文件结构与代码组织**：
-    ![项目文件截图](img/image.png)
+    ![项目文件截图](assets/images/image.png)
 
 - **技术栈**：Python 3.x, Pandas, OpenPyXL, Pillow, Zipfile/XML, Requests (REST API), AI Agent Framework.
 ---
 
 ## 🔗 联系方式
 - **Email:** whj_cj2020@163.com
-- **GitHub:** [https://github.com/whjwjx](https://https://github.com/whjwjx)
+- **GitHub:** [https://github.com/whjwjx](https://github.com/whjwjx)

@@ -60,13 +60,27 @@
 
 ---
 
-## 📈 自动化研究：Skill 自动上架
-目前正在研究将商家繁琐的录入工作抽象为 **AI Skills**。
-- **已实现：** 自动提取入库单图片信息、自动分类、自动生成营销文案。
-- **技术栈：** Trae + FastAPI + Dify。
+## 📈 自动化研究：AI 驱动的商品自动上架系统 (Smart Listing Agent)
+针对多来源商家入库单格式混乱、图片提取难、人工录入效率低等痛点，通过 **AI Agent** 模式实现从原始 Excel 到上架完成的 **6 步全链路自动化**。
 
+- **AI 智能交互与推理 (核心特色)**：
+  - **自然语言驱动**：用户只需通过自然语言下达指令，如：“按照 6 步上架流程，帮我对 XXX 的入库单进行商品入库并上架”。
+  - **自主 Skill 检索与编排**：AI 模型具备自主思考能力，能够根据用户意图自动检索并一步步调用底层 Skills，实现任务的闭环执行。
+  - **异构 Excel 智能解析**：攻克了 AI 识别商品上架 API 所需字段参数的难题。AI 能自主处理各种复杂的 Excel 表结构，精准提取并映射参数，为后续自动化步骤提供高质量数据支撑。
+
+- **核心亮点与技术攻关**：
+  - **智能字段映射 (Smart Mapping)**：利用 `difflib` 模糊匹配算法实现表头识别，结合置信度校验（Confidence Score），准确率 >95%。
+  - **深度图片提取 (Deep Extraction)**：通过 `zipfile` 解析 **OpenXML** 底层结构，精准定位图片在单元格中的锚点 (Anchor)，确保商品行图片 100% 精准匹配。
+  - **数据治理与标准化**：自动清洗规格单位，并根据文件名语义自动推荐内部分类 ID。
+  - **高效分发与存储**：集成 OSS 实现图片自动上传、压缩及 URL 回填，通过 RESTful API 批量分发标准化数据。
+
+- **项目展示**：
+  - **文件结构与代码组织**：
+    ![项目文件截图](img/image.png)
+
+- **技术栈**：Python 3.x, Pandas, OpenPyXL, Pillow, Zipfile/XML, Requests (REST API), AI Agent Framework.
 ---
 
 ## 🔗 联系方式
-- **Email:** 1312513223@qq.com
+- **Email:** whj_cj2020@163.com
 - **GitHub:** [https://github.com/whjwjx](https://https://github.com/whjwjx)

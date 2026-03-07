@@ -43,13 +43,18 @@
   - ![Dify 工作流架构](screenshots/commits/image.png)
   - ![异步并行优化](screenshots/commits/image-2.png)
 
-### 4. AI 全栈实战：StepOne 项目 (核心展示)
-**StepOne** 是我深度协同 AI 构建的全栈 AI 应用。
+### 4. AI 全栈实战：StepOne — AI 驱动的个人效率管理平台 (核心展示)
+**StepOne** 是一款融合了“类 Flomo 笔记”与“象限清单”的个人效率工具，旨在通过 AI 技术降低用户拆解复杂任务的认知成本。
+
 - **项目官网**：[👉 stepone.huajiang.wang](https://stepone.huajiang.wang) (推荐访问)
-- **项目状态**：🛠️ **持续更新中** (不断引入 AI 前沿实践)
-- **AI 协同点**：
-  - **全链路自动构建**：利用 AI 进行从前端界面设计到后端 API 实现的全流程辅助。
-  - **极致效能体验**：项目架构经过 AI 优化，兼顾性能与可维护性。
+- **项目角色**：全栈开发 (React + FastAPI)
+- **核心技术**：React 18, Vite, Tailwind CSS 4, FastAPI, PostgreSQL, ModelScope (LLM), Docker, WebSocket
+- **技术亮点与 AI 协同**：
+  - **AI 任务智能化拆解**：集成 ModelScope (LLM) 接口，实现任务一键自动拆解为可执行步骤，通过 Prompt Engineering 优化大模型输出的结构化程度与逻辑性。
+  - **高安全性会话管理**：基于 JWT + 设备指纹设计多端登录方案。支持 WebSocket 实时通信、主设备提权 (Master Device Elevation) 及远程强制下线，增强账号安全性。
+  - **高性能前端架构**：利用 Radix UI 与 Tailwind CSS 4 构建响应式组件库；采用 Context API + Custom Hooks 优化全局状态管理，通过 DataProvider 作用域限制实现非必要请求的按需加载。
+  - **稳健的后端工程化**：基于 FastAPI 异步框架构建 RESTful API，使用 SQLAlchemy + Alembic 管理数据库迁移，并采用 OpenAPI (Swagger) 契约优先模式，确保前后端接口高度对齐。
+  - **敏捷开发与部署**：通过 Docker Compose 实现容器化一键部署；制定了“一事一档”任务追踪机制与标准的运维交付清单 (Ops Checklist)，具备完整的全栈项目全生命周期管理经验。
 - **展示：**
   - ![StepOne 项目展示](screenshots/commits/stepone-github-page.png)
 

@@ -13,7 +13,7 @@
 ## 2. AI 对话截图规范
 - **路径：** `assets/screenshots/ai_chats/`
 - **操作：**
-  - 截取 Trae 或 OpenCode 的对话侧边栏。
+  - 截取 Trae 或 OpenClaw 的对话侧边栏。
   - **必须遮盖：** 代码中的敏感 API Key、公司数据库地址、具体的商业算法逻辑。
   - **保留：** 你对 AI 下达的复杂指令（Prompt）、AI 提供的架构建议、以及你对 AI 结果的 Review/修正过程。
 - **目的：** 展示你如何“调教”AI，体现你的 Prompt Engineering 能力和架构思维。

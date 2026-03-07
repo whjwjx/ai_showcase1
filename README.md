@@ -2,25 +2,27 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Role-Full--Stack%20AI%20Developer-blue?style=for-the-badge" alt="Role">
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20RAG%20%7C%20Automation-orange?style=for-the-badge" alt="Focus">
-  <img src="https://img.shields.io/badge/IDE-Trae%20%7C%20Cursor%20%7C%20VSCode-blueviolet?style=for-the-badge" alt="IDE">
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20MCP%20%7C%20Automation-orange?style=for-the-badge" alt="Focus">
+  <img src="https://img.shields.io/badge/IDE-Trae%20%7C%20OpenClaw%20%7C%20Cursor-blueviolet?style=for-the-badge" alt="IDE">
 </p>
 
-本仓库是一个**实战驱动**的 AI 协同开发展示空间，旨在记录和分享我在与 AI（Trae, Claude, DeepSeek）深度共生过程中的工程实践、效能数据及方法论沉淀。
+本仓库是一个**实战驱动**的 AI 协同开发展示空间，旨在记录和分享我在与 AI（Trae国际版, OpenCode, ClaudeCode, Gemni）深度共生过程中的工程实践、效能数据及方法论沉淀。
 
 ---
 
 ## 👨‍💻 关于作者
 
-我是 **王华江**，一名专注于 **AI 全栈开发** 的技术探索者。
+我是 **王华江**，一名专注于 **AI 全栈开发与 Agentic 架构** 的技术探索者。
 
+- 🌐 **个人主页**：[huajiang.wang](https://huajiang.wang) (博客建设中...)
 - 🎓 **学历背景**：27届硕士研究生
 - 🎯 **求职意向**：前端/全栈开发 (侧重 AI 应用落地)
 - 🛠 **技术栈**：
   - **前端**：Vue 3, React 18, 微信小程序, Tailwind CSS
-  - **后端**：Python (FastAPI, Flask), Node.js, PostgreSQL
-  - **AI 领域**：Dify, LangChain, RAG (检索增强生成), Agentic Workflow
-- 💡 **核心优势**：擅长将 AI 技术与具体业务场景（如智能导购、自动化办公）深度结合，追求“AI 原生”的开发体验。
+  - **后端**： Python (FastAPI, Flask), Node.js, Java (Spring Boot), PostgreSQL, MySQL
+  - **AI 领域**：Dify, MCP (Model Context Protocol), LangChain, RAG, Agentic Workflow
+- 💡 **探索实践**：目前正深入研究 **MCP 生态**、**自定义 Skills 开发** 以及 **OpenClaw 协同模式**，致力于构建更智能、更自动化的开发工作流。
+- 🚀 **核心优势**：擅长将 AI 技术与具体业务场景（如智能导购、自动化办公）深度结合，追求“AI 原生”的开发体验。
 
 ---
 
@@ -88,6 +90,8 @@
 
 ### 4. AI 全栈实战：StepOne — AI 驱动的个人效率管理平台 (核心展示)
 **StepOne** 是一款融合了“类 Flomo 笔记”与“象限清单”的个人效率工具，旨在通过 AI 技术降低用户拆解复杂任务的认知成本。
+
+> 🛠️ **项目状态**：持续迭代与深度优化中 (不断引入 AI 前沿实践)
 
 - **项目官网**：[👉 stepone.huajiang.wang](https://stepone.huajiang.wang) (推荐访问)
 - **项目角色**：全栈开发 (React + FastAPI)

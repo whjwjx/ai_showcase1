@@ -96,18 +96,24 @@
 
 > 🛠️ **项目状态**：持续迭代与深度优化中 (不断引入 AI 前沿实践)
 
+> **"We shape our tools and thereafter they shape us."** —— **John Culkin**, 1967
+> 
+> - **溯源与共鸣**：此金句常被误传为麦克卢汉所言，实则出自其挚友约翰・卡尔金。它揭示了人与工具之间深刻的**双向重塑**关系。
+> - **AI 时代的实践**：在 AI 驱动开发的当下，我们通过精准的 Prompt 与系统架构去“塑造”AI；与此同时，AI 也在潜移默化地“重塑”我们的逻辑思维与交付效率。
+> - **产品的生命力**：**StepOne** 并非冰冷的效率工具，而是能与用户“**共同进化**”的数字生命。随着使用深度的增加，它将从“辅助工具”进化为“思维伙伴”，最终实现**从“人适应工具”到“人机合一”的跨越**。
+
 - **项目官网**：[👉 stepone.huajiang.wang](https://stepone.huajiang.wang) (推荐访问)
 - **项目角色**：全栈开发 (React + FastAPI)
+- **多端适配**：目前支持 **Web 网页端**（已深度适配手机端浏览器）；未来规划将逐步原生支持 **iOS/Android App** 及 **微信小程序**。
 - **核心技术**：React 18, Vite, Tailwind CSS 4, FastAPI, PostgreSQL, ModelScope (LLM), Docker, WebSocket
 - **技术亮点与 AI 协同**：
   - **AI 任务智能化拆解 (核心构想与实践)**：集成 ModelScope (LLM) 接口，实现任务一键自动拆解。
+    > ⚠️ **说明**：该功能目前正在进行 AI 接口深度优化，暂不可用，敬请期待。
     - **破局“万事开头难”**：侧重于通过 AI 识别并定位“**关键第一步**”，大幅降低启动复杂任务的认知负担。
     - **AI 个性化演进与记忆召回**：随着用户 Memo（笔记）的持续积累，系统将通过 RAG (检索增强生成) 打造更懂用户的个性化 AI。不仅能实现精准的任务推荐，更能捕捉用户“碎片化灵感”进行二次唤醒。
      - **场景示例 (破局开头)**：用户想“学习 Python 爬虫”，AI 会检索历史笔记（如“已掌握基础语法”），直接跳过冗余步骤，精准建议“第一步：安装 Scrapy 并编写首个 Spider”。
      - **场景示例 (灵感唤醒)**：用户曾在深夜记录过“想写一个关于家乡的短篇小说”，但因忙碌而搁置。当某天用户再次记录“今天回老家”时，AI 自动关联并温馨提示：“你之前提到过想写一篇家乡的短篇，现在正是寻找素材的好机会，要不要把这个想法推进到‘第一步’？”。
   - **高安全性会话管理**：基于 JWT + 设备指纹设计多端登录方案。支持 WebSocket 实时通信、主设备提权 (Master Device Elevation) 及远程强制下线，增强账号安全性。
-  - **高性能前端架构**：利用 Radix UI 与 Tailwind CSS 4 构建响应式组件库；采用 Context API + Custom Hooks 优化全局状态管理，通过 DataProvider 作用域限制实现非必要请求的按需加载。
-  - **稳健的后端工程化**：基于 FastAPI 异步框架构建 RESTful API，使用 SQLAlchemy + Alembic 管理数据库迁移，并采用 OpenAPI (Swagger) 契约优先模式，确保前后端接口高度对齐。
   - **敏捷开发与部署**：通过 Docker Compose 实现容器化一键部署；制定了“一事一档”任务追踪机制与标准的运维交付清单 (Ops Checklist)，具备完整的全栈项目全生命周期管理经验。
 - **💡 AI 协同方法论与深度思考**：
   - **“不写一行代码”的探索**：在本项目中持续积累和研究如何通过精准的 Prompt 与 Context 管理，最大限度发挥 AI 的全自动化编码能力，让开发流程更精准、更高效。
@@ -118,6 +124,14 @@
     - **以人为本的架构能力**：这一过程极大地锻炼了开发者对业务的深度剖析与原子化拆解能力。不盲目追求“一步到位”的顶尖大模型，而是通过人的专业分析让各种模型都能稳定、高效地工作。
 - **展示：**
   - ![StepOne 项目展示](assets/screenshots/commits/stepone-github-page.png)
+  - **主页截图**：
+    ![StepOne 主页截图](assets/screenshots/commits/stepone-homepage.png)
+  - **任务拆解示例** (接口优化中，暂不可用)：
+    ![StepOne 任务拆解示例](assets/screenshots/commits/stepone-task-breakdown.png)
+  - **远程安全退出设置**：
+    ![远程安全退出设置](assets/screenshots/commits/stepone-remote-logout.png)
+  
+
 
 [⬆️ 返回顶部](#-ai-native-developer-showcase)
 

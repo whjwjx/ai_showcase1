@@ -29,7 +29,7 @@
 ## 🎯 仓库初衷：为什么要建立这个 Showcase？
 
 > [!NOTE]
-> 这是临时展示仓库，内容正在陆续迁移到博客（[www.huajiang.wang 🔗](https://huajiang.wang)）中。
+> 这是临时展示仓库，内容正在陆续迁移到博客（[www.huajiang.wang](https://huajiang.wang)）中。
 
 在 AI 浪潮下，**开发者正在从“写代码的人”转变为“调优代码的人”**。建立本仓库的初衷有三：
 1. **量化 AI 效能**：通过真实数据证明 AI 对开发效率的提升。
